@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Buch einpflegen</title>
+</head>
+<body>
+<h1>Buch einpflegen</h1>
+
+<form th:action="@{/includes/inc.addBook}" method="post">
+    <label for="title">Titel: </label>
+    <input type="text" id="title" th:value="${book.title}"/>
+    <br>
+
+    <label for="author">Autor: </label>
+    <input type="text" id="author" name="" th:value="${book.author}"/>
+    <br>
+
+    <button type="submit">Hinzufügen</button>
+</form>
+
+</body>
+</html>
