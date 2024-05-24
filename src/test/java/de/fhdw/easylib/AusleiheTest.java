@@ -1,7 +1,6 @@
 package de.fhdw.easylib;
 
 import de.fhdw.easylib.model.*;
-import de.fhdw.easylib.model.test.InitTests;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package de.fhdw.easylib.model.test;
+package de.fhdw.easylib;
 
 import de.fhdw.easylib.model.*;
 

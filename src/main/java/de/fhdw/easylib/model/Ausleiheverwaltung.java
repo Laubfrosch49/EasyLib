@@ -43,8 +43,6 @@ public class Ausleiheverwaltung implements IAusleiheverwaltung {
 
         ((Kunde) ausleihe.getKunde()).ausleihen.remove(ausleihe);
         this.ausleihen.remove(ausleihe);
-
-        //garbage collecting ausleihe?
     }
 
     @Override
